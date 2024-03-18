@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+   <name>Utility Columns - No Quest Reward</name>
+   <author>frame</author>
+   <supportedVersions>
+      <li>1.4</li>
+      <li>1.5</li>
+   </supportedVersions>
+   <packageId>frame.utilitycolumnsnrq</packageId>
+   <description>Removes archo cubes from quest rewards. You can still buy them from exotic traders.
+   
+   Source: https://github.com/frame/RimWorld-UtilityColumns-NQR
+   </description>
+   <modDependencies>
+     <li>
+       <packageId>nephlite.orbitaltradecolumn</packageId>
+       <displayName>Utility Columns</displayName>
+       <steamWorkshopUrl>steam://url/CommunityFilePage/2013476665</steamWorkshopUrl>
+     </li>
+   </modDependencies>
+   <loadAfter>
+      <li>nephlite.orbitaltradecolumn</li>
+   </loadAfter>
+</ModMetaData>
